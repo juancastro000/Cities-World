@@ -24,8 +24,11 @@
   <!-- Main Content -->
   <main class="container mx-auto py-8 px-4">
     <!-- Title Section -->
-    <section class="text-center mb-8">
-      <h2 class="text-2xl font-bold">The Most Popular City</h2>
+    <section class="text-center mb-8 relative h-48">
+      <img src="scr\1bangkok.jpg" alt="Bangkok" class="absolute inset-0 object-cover w-full h-full">
+      <div class="relative z-10 bg-black bg-opacity-50 h-full flex items-center justify-center">
+        <h2 class="text-2xl font-bold text-white">The Most Popular City</h2>
+      </div>
     </section>
 
     <!-- Ranking and Cards Section -->
@@ -35,33 +38,33 @@
         <h3 class="text-lg font-bold mb-4">Ranking - Most Visited</h3>
         <ul class="space-y-4">
           <li class="relative bg-gray-100 h-32 rounded overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="City Image" class="absolute inset-0 object-cover w-full h-full">
+            <img src="scr\1bangkok.jpg" alt="Bangkok" class="absolute inset-0 object-cover w-full h-full">
             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <span class="text-white font-bold">Name of the city</span>
+              <span class="text-white font-bold">Bangkok</span>
             </div>
           </li>
           <li class="relative bg-gray-100 h-32 rounded overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="City Image" class="absolute inset-0 object-cover w-full h-full">
+            <img src="scr\2paris.jpg" alt="Paris" class="absolute inset-0 object-cover w-full h-full">
             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <span class="text-white font-bold">Name of the city</span>
+              <span class="text-white font-bold">París</span>
             </div>
           </li>
           <li class="relative bg-gray-100 h-32 rounded overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="City Image" class="absolute inset-0 object-cover w-full h-full">
+            <img src="scr\3londres.jpg" alt="Londres" class="absolute inset-0 object-cover w-full h-full">
             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <span class="text-white font-bold">Name of the city</span>
+              <span class="text-white font-bold">Londres</span>
             </div>
           </li>
           <li class="relative bg-gray-100 h-32 rounded overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="City Image" class="absolute inset-0 object-cover w-full h-full">
+            <img src="scr\4dubai.jpg" alt="Dubai" class="absolute inset-0 object-cover w-full h-full">
             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <span class="text-white font-bold">Name of the city</span>
+              <span class="text-white font-bold">Dubái</span>
             </div>
           </li>
           <li class="relative bg-gray-100 h-32 rounded overflow-hidden">
-            <img src="https://via.placeholder.com/150" alt="City Image" class="absolute inset-0 object-cover w-full h-full">
+            <img src="scr\5singapur.jpg" alt="Singapur" class="absolute inset-0 object-cover w-full h-full">
             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <span class="text-white font-bold">Name of the city</span>
+              <span class="text-white font-bold">Singapur</span>
             </div>
           </li>
         </ul>
@@ -69,41 +72,47 @@
 
       <!-- Cards -->
       <div class="col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="bg-white shadow rounded overflow-hidden">
-          <img src="https://via.placeholder.com/300" alt="City Image" class="w-full h-32 object-cover">
+        <div class="bg-white shadow rounded overflow-hidden relative">
+          <img src="scr\9tokyo.jpg" alt="tokyo" class="w-full h-32 object-cover">
           <div class="p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
           </div>
+          <div class="absolute bottom-4 right-4 bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded-full">Tokyo</div>
         </div>
-        <div class="bg-white shadow rounded overflow-hidden">
-          <img src="https://via.placeholder.com/300" alt="City Image" class="w-full h-32 object-cover">
+        <div class="bg-white shadow rounded overflow-hidden relative">
+          <img src="scr\8estambul.jpg" alt="Estambul" class="w-full h-32 object-cover">
           <div class="p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
           </div>
+          <div class="absolute bottom-4 right-4 bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded-full">Estambul</div>
         </div>
-        <div class="bg-white shadow rounded overflow-hidden">
-          <img src="https://via.placeholder.com/300" alt="City Image" class="w-full h-32 object-cover">
+        <div class="bg-white shadow rounded overflow-hidden relative">
+          <img src="scr\7nuevayork.jpg" alt="Nueva York" class="w-full h-32 object-cover">
           <div class="p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
           </div>
+          <div class="absolute bottom-4 right-4 bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded-full">Nueva York</div>
         </div>
-        <div class="bg-white shadow rounded overflow-hidden">
-          <img src="https://via.placeholder.com/300" alt="City Image" class="w-full h-32 object-cover">
+        <div class="bg-white shadow rounded overflow-hidden relative">
+          <img src="scr\6kuala.jpg" alt="Kuala Lumpur" class="w-full h-32 object-cover">
           <div class="p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
           </div>
+          <div class="absolute bottom-4 right-4 bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded-full">Kuala Lumpur</div>
         </div>
-        <div class="bg-white shadow rounded overflow-hidden">
-          <img src="https://via.placeholder.com/300" alt="City Image" class="w-full h-32 object-cover">
+        <div class="bg-white shadow rounded overflow-hidden relative">
+          <img src="scr\5singapur.jpg" alt="Singapur" class="w-full h-32 object-cover">
           <div class="p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
           </div>
+          <div class="absolute bottom-4 right-4 bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded-full">Singapur</div>
         </div>
-        <div class="bg-white shadow rounded overflow-hidden">
-          <img src="https://via.placeholder.com/300" alt="City Image" class="w-full h-32 object-cover">
+        <div class="bg-white shadow rounded overflow-hidden relative">
+          <img src="scr\4dubai.jpg" alt="Dubai" class="w-full h-32 object-cover">
           <div class="p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a congue massa, eu hendrerit mauris.</p>
           </div>
+          <div class="absolute bottom-4 right-4 bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded-full">Dubai</div>
         </div>
       </div>
     </div>
@@ -113,19 +122,19 @@
       <h3 class="text-xl font-bold text-center mb-8">Most Popular Restaurant</h3>
       <div class="flex justify-center space-x-6">
         <div class="text-center">
-          <div class="w-16 h-16 bg-red-500 rounded-full mx-auto"></div>
+          <img src="scr\rest1.jpg" alt="Restaurante 1" class="w-16 h-16 rounded-full mx-auto object-cover">
           <p class="mt-4 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
         <div class="text-center">
-          <div class="w-16 h-16 bg-red-500 rounded-full mx-auto"></div>
+          <img src="scr\rest2.jpg" alt="Restaurante 2" class="w-16 h-16 rounded-full mx-auto object-cover">
           <p class="mt-4 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
         <div class="text-center">
-          <div class="w-16 h-16 bg-red-500 rounded-full mx-auto"></div>
+          <img src="scr\rest3.jpg" alt="Restaurante 3" class="w-16 h-16 rounded-full mx-auto object-cover">
           <p class="mt-4 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
         <div class="text-center">
-          <div class="w-16 h-16 bg-red-500 rounded-full mx-auto"></div>
+          <img src="scr\rest4.jpg" alt="Restaurante 4" class="w-16 h-16 rounded-full mx-auto object-cover">
           <p class="mt-4 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
       </div>
